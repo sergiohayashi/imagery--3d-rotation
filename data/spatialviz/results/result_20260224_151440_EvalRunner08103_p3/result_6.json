@@ -1,0 +1,51 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260224_151440_EvalRunner08103_p3--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_08103_p3' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "title": "20260224_151440_EvalRunner08103_p3--MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_08103_p3' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "title": "20260224_151440_EvalRunner08103_p3--MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_08103_p3' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "title": "20260224_151440_EvalRunner08103_p3--MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_08103_p3' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "title": "20260224_151440_EvalRunner08103_p3--MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_08103_p3' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "title": "20260224_151440_EvalRunner08103_p3--MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_08103_p3' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "title": "20260224_151440_EvalRunner08103_p3--MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_08103_p3' is not defined"
+  }
+]

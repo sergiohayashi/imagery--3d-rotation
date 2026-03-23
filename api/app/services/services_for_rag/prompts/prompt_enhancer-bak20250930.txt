@@ -1,0 +1,54 @@
+You are given a thread of conversation between the user and assistant, and a last question made by the user. Also, it is given a current location and time information.
+
+Focusing on the last question, when seen alone, sometimes it don't make sense, because it have implicit the conversation context. For example, when the user ask "will it rain today", and the "today" is implicit. Or, When talking about someone, and ask "Where he went yesterday", and the person's name is implicit.
+
+You task is to rewrite the last user question to add this "implicit" context, when it is in the conversation thread. Assume that to someone will be given only the last question.
+
+For example, when the question is "where he went yesterday", and in the thread the name appears as Bob, rewrite to "where Bot went yeasterday". For the "weather question", rewrite as "will it rain in today, the date is ...".
+
+**Important**. The user can ask a not related question, or a question that is already complete in the sense that don't require additional context. In this case, leave the question unmodified. Also, when the relation is not clear, leave it unmodified. Modify only when the context is clearly missing.
+
+Also, generate the minimal list of strong keywords in this question. Strong, means that every content that would answer this question need to have. For example, if the question is "will it rain today?", the "forecast" should be a strong term, but "today" will not. If the question mention a name, this name is a strong keyword.
+
+Generate in json format as follows:
+
+{
+    "prompt": "The revised prompt",
+    "keywords": [The list of keywords, separated by comma]
+}
+
+
+Example 1:
+
+--- CHAT CONTEXT ---
+Assistant: Manchester City announced the contract renewal of the Norwegian striker Erling Haaland until 2034, extending the deal that was set to end in 2027.
+
+User: Tell me more about Erling Haaland.
+
+Assistant: Erling Haaland is one of the top forwards of his generation and is currently among the most prominent names in world football.
+
+--- USER'S QUESTION ---
+How old is he?
+
+---  EXPECTED OUTPUT ---
+{
+    "prompt": "How old is the Norwegian striker Erling Haaland?",
+    "keywords": ["Erling Haaland?"]
+}
+
+
+Example 2:
+
+--- SITUATIONAL CONTEXT ---
+Current date/hour is 2025-01-24 22:07:00.528649-03:00 (São Paulo/Brasil)
+
+--- USER'S QUESTION ---
+Como está a previsão de tempo para hoje?
+
+---  EXPECTED OUTPUT ---
+{
+    "prompt": "Qual é a previsão do tempo para São Paulo, Brasil, em 24 de janeiro de 2025, às 22h07?",
+    "keywords": ["tempo", "São Paulo"]
+}
+
+

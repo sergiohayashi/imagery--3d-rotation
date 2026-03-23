@@ -1,0 +1,602 @@
+[
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "0-3-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "1-2-3-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "2-3-3-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "3-3-2-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 180 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "4-2-3-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "5-2-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 270 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "6-3-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 270 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "7-3-3-1-8",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 270 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "8-3-3-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "9-3-3-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "10-2-3-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "11-3-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "12-3-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "13-3-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "14-3-3-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "15-3-3-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "16-3-3-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "17-3-3-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "18-3-3-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "19-2-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "20-2-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "21-2-3-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 270 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "22-2-4-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "23-2-4-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "24-2-4-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "25-2-4-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "26-2-4-1-8",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 180 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "27-2-4-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "28-2-3-1-4",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "29-2-4-1-5",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "30-3-4-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 270 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "31-3-4-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "32-3-4-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 180 degrees.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "33-3-4-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 90 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "34-3-4-1-9",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "35-3-3-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 180 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "36-3-4-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "37-3-4-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "C",
+    "Explanation": "{'C': 'Option C is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 180 degrees.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "38-3-4-1-7",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "A",
+    "Explanation": "{'A': 'Option A is correct because it was obtained by removing one small cube from the original stack.', 'B': 'Option B is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 90 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the x-axis by 270 degrees.'}"
+  },
+  {
+    "Category": "MentalRotation",
+    "Task": "3DRotation",
+    "Level": "Level0",
+    "Image_id": "39-3-3-1-6",
+    "Question": "The left image shows the original cube stack made of equal-sized small cubes. Which of the options on the right cannot be obtained by rotating the original cube stack? Please answer from options A, B, C, or D.",
+    "Choices": [
+      "A",
+      "B",
+      "C",
+      "All three other options are incorrect"
+    ],
+    "Answer": "B",
+    "Explanation": "{'B': 'Option B is correct because it was obtained by removing one small cube from the original stack.', 'A': 'Option A is incorrect because the cube stack can be obtained by rotating the original stack around the z-axis by 270 degrees.', 'C': 'Option C is incorrect because the cube stack can be obtained by rotating the original stack around the y-axis by 90 degrees.'}"
+  }
+]

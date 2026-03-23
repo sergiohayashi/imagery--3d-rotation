@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    gap: 4px;
+    /*position: relative;*/
+}
+
+.navbar {
+    width: 60px; /* Fixed width for the left child */
+    min-width: 60px; /* Ensure it doesn't shrink */
+    max-width: 60px; /* Ensure it doesn't grow */
+    /*max-width: 88px; !* Fixed width for the left child *!*/
+    background-color: var(--bg-color);
+    border-right: solid 1px var(--border-color);
+    border-bottom: unset;
+}
+
+.main-app {
+    flex-grow: 1;
+    /*height: 100%;*/
+    overflow-y: auto;
+    /*background-color: lightcoral; !* Just for visualization *!*/
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .navbar {
+        /*height: 40px; !* Fixed width for the left child *!*/
+        /*min-height: 40px; !* Ensure it doesn't shrink *!*/
+        /*max-height: 40px; !* Ensure it doesn't grow *!*/
+        min-width: unset;
+        max-width: unset;
+        background-color: var(--bg-color);
+        width: 100%;
+        border-right: unset;
+        border-bottom: solid 1px var(--border-color);
+    }
+}
+
+.toggler {
+    position: absolute;
+    right: 0;
+}
+
+
+

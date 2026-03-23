@@ -1,0 +1,31 @@
+/*!*modal start*!*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+    position:fixed;
+    background: var(--bg-color);
+    /*width: 80%;*/
+    /*height: 70%;*/
+    padding: 20px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /*color: #8a8a8a; !* Light text *!*/
+    /*background-color: #0c0c0c; !* Dark background *!*/
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+/*!*modal end*!*/

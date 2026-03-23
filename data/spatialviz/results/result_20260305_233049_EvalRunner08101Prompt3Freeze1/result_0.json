@@ -1,0 +1,9 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260305_233049_EvalRunner08101Prompt3Freeze1--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "AsyncResponses.stream() got an unexpected keyword argument 'seed'"
+  }
+]

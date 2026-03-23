@@ -1,0 +1,9 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260307_150911_EvalRunner08101Prompt3Freeze2--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "list indices must be integers or slices, not str"
+  }
+]

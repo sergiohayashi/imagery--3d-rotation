@@ -1,0 +1,23 @@
+.code-block {
+    position: relative;
+}
+
+.code-icons{
+    position: sticky;
+    top:16px;
+    right: 0;
+    /*height: 40px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 4px;
+    pointer-events: none;
+}
+
+.copy-paste {
+    pointer-events: auto;
+}
+
+.code-part {
+    margin-top: -36px;
+}

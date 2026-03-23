@@ -1,0 +1,28 @@
+.error-message {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fa6464;
+    color: var(--primary-color);
+    /*color: white;*/
+    padding: 10px 30px;
+    border-radius: 5px;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+}
+
+.error-message div {
+    color: var(--primary-color);
+}
+
+.error-message.fade-out {
+    opacity: 0;
+}
+
+.copy-paste {
+    position: absolute;
+    right: 0;
+    top: 0;
+}

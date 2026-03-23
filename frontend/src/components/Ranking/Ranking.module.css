@@ -1,0 +1,79 @@
+.ranking-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+    /*max-height: 120px;*/
+    /*overflow-y: auto;*/
+    /*width: 100%;*/
+    padding-right: 10px;
+    /*max-width: 300px;*/
+    width: 200px;
+}
+
+.ranking-content > .name {
+}
+
+@media only screen and (max-width: 768px) {
+    .ranking-content {
+        max-height: unset;
+    }
+}
+
+.ranking-line {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    align-items: center;
+    grid-column-gap: 4px; /* Adjust the value to your preference */
+}
+.ranking-line > :last-child {
+    justify-self: end;
+}
+
+.ranking-line > :nth-child(2) {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ranking-line  img {
+    height: 20px;
+    width: 20px;
+}
+
+.medal-number {
+    background-color: var(--secondary-color);
+    border: 1px solid var(--border-color); /* Border color */
+    border-radius: 50%; /* Makes the shape a circle */
+    color: var(--bg-color); /* Text color */
+    font-size: 0.8rem; /* Size of the number */
+    /*font-weight: bold; !* Makes the number bold *!*/
+    height: 16px; /* Height of the circle */
+    width: 16px; /* Width of the circle */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    /*margin: 5px; !* Optional: space around the circle *!*/
+}
+
+.more-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.ranking-period {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ranking-container {
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

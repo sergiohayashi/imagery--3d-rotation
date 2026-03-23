@@ -1,0 +1,92 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "answer": "A",
+    "correct": false
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "answer": "C",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "answer": "C",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-7-3-3-1-8",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-7-3-3-1-8",
+    "answer": "B",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-8-3-3-1-7",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-8-3-3-1-7",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-9-3-3-1-6",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-9-3-3-1-6",
+    "answer": "B",
+    "correct": false
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-10-2-3-1-4",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-10-2-3-1-4",
+    "answer": "C",
+    "correct": false
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-11-3-3-1-5",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-11-3-3-1-5",
+    "answer": "C",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-12-3-3-1-5",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-12-3-3-1-5",
+    "answer": "A",
+    "correct": false
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-13-3-3-1-5",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-13-3-3-1-5",
+    "answer": "C",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-14-3-3-1-6",
+    "title": "20260316_224529_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-14-3-3-1-6",
+    "answer": "A",
+    "correct": false
+  }
+]

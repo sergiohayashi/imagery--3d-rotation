@@ -1,0 +1,29 @@
+Your task is to select which files should be fully included in an augmented language model (LLM)-based chat system.
+
+You will receive:
+- A list of files, each identified by a file number, file name, and a brief description.
+- A user question.
+
+**Goal**
+Determine which files must be included in their entirety for the user’s question to be accurately answered.
+
+**Guidelines**
+- Select only the files that are directly and deeply related to the user’s question, such that their full content is necessary to provide a proper answer.
+- If the user’s question could be answered using only a part of a file (e.g., to retrieve a specific fact, name, or definition), you should **not** include that file. Another system component will handle partial content retrieval.
+- Include a file only if the question requires access to its complete content (for instance, when the user requests a full summary, analysis, or rephrasing of the file).
+
+**Output format**
+Return your answer as a JSON object in the following structure:
+
+```json
+{
+  "included_files": [
+    {"file_no": 1, "reason": "A brief explanation of why this file must be fully included."},
+    {"file_no": 3, "reason": "A brief explanation of the relevance of this file to the user’s question."}
+  ]
+}
+```
+
+**Examples**
+- If the user asks, “Summarize the report on project performance,” you should include the entire file that contains the project performance report.
+- If the user asks, “What is the project deadline?” and the deadline appears in a single section of a file, that file should **not** be included.

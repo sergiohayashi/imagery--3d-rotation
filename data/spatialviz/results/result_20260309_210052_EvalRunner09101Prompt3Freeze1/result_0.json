@@ -1,0 +1,9 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  }
+]

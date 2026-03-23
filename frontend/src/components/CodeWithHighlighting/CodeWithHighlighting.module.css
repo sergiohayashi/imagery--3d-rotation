@@ -1,0 +1,13 @@
+.code-block {
+    position: relative;
+}
+
+.copy-paste {
+    /*position: absolute;*/
+    /*top:6px;*/
+    /*right: 0;*/
+    position: sticky;
+    float: right;
+    top:6px;
+    right: 0;
+}

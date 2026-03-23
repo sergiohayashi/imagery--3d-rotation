@@ -1,0 +1,47 @@
+import os
+import motor.motor_asyncio
+from dotenv import load_dotenv
+
+load_dotenv("./.env.local-only")
+
+
+class AsyncDB:
+    def __init__(self):
+        # load_dotenv('./.env.local')
+        if os.getenv("MONGO_USERNAME"):
+            self.client = motor.motor_asyncio.AsyncIOMotorClient(
+                os.getenv("MONGO_URL"),
+                username=os.getenv("MONGO_USERNAME"),
+                password=os.getenv("MONGO_PASSWORD"),
+            )
+        else:
+            self.client = motor.motor_asyncio.AsyncIOMotorClient(os.getenv("MONGO_URL"))
+        self.db = self.client[os.getenv("MONGO_DBNAME")]
+        self.projects = self.db["projects"]
+        self.users = self.db["users"]
+        self.users_usage = self.db["users_usage"]
+        self.user_projects = self.db["user_projects"]
+        self.context_artifacts = self.db["context_artifacts"]
+        self.chats = self.db["chats"]
+        self.chat_entries = self.db["chat_entries"]
+        self.rate_limits = self.db["rate_limits"]
+        self.prompts = self.db["prompts"]
+        self.system_messages = self.db["system_messages"]
+        self.usage_log = self.db["usage_log"]
+        self.prompt_templates = self.db["prompt_templates"]
+        self.augmented_message_log = self.db["augmented_message_log"]
+        self.agent_action = self.db["agent_action"]
+        self.agent_action_step = self.db["agent_action_step"]
+        self.discover = self.db["discover"]
+        self.bookmarks = self.db["bookmarks"]
+        self.chat_view = self.db["chat_view"]
+        self.feedbacks = self.db["feedbacks"]
+        self.feedback_comments = self.db["feedback_comments"]
+        self.users_activity_log = self.db["users_activity_log"]
+        self.files = self.db["files"]
+        self.file_context = self.db["file_context"]
+        self.file_context_files = self.db["file_context_files"]
+        self.file_context_chunks = self.db["file_context_chunks"]
+
+
+db_async = AsyncDB()

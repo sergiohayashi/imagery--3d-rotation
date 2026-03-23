@@ -1,0 +1,9 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260308_221419_EvalRunner08101Prompt3Freeze1--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "Error code: 400 - {'code': 'Client specified an invalid argument', 'error': 'Invalid request content: image_url must either be a base64-encoded image or a URL.'}"
+  }
+]

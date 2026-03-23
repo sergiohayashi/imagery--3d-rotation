@@ -1,0 +1,44 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260224_000951_EvalRunner08101Prompt4_v2--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "B",
+    "correct": false
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "title": "20260224_000951_EvalRunner08101Prompt4_v2--MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "title": "20260224_000951_EvalRunner08101Prompt4_v2--MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "answer": "C",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "title": "20260224_000951_EvalRunner08101Prompt4_v2--MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "title": "20260224_000951_EvalRunner08101Prompt4_v2--MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "answer": "C",
+    "correct": false
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "title": "20260224_000951_EvalRunner08101Prompt4_v2--MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "answer": "C",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "title": "20260224_000951_EvalRunner08101Prompt4_v2--MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "answer": "C",
+    "correct": true
+  }
+]

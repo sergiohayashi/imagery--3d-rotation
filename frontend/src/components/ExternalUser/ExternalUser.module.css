@@ -1,0 +1,85 @@
+
+.password-update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    align-items: center;
+    grid-column-gap: 4px; /* Adjust the value to your preference */
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*width: fit-content;*/
+}
+
+.form-group input {
+    border: solid 1px var(--border-color);
+}
+
+
+.password-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-password-btn {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.toggle-password-btn:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    color: var(--icon-color)
+}
+
+
+.projectList {
+    border-top: solid 1px var(--border-color);
+    width: 100%;
+    overflow-y: auto;
+    display: grid;
+    gap: 5px; /* This will add a 10px space between each item */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 20px;
+}
+
+.projectItem {
+    width: 70%;
+    max-width: 500px;
+    display: grid;
+
+    grid-template-columns: 4fr 8fr 8fr 2fr 2fr;
+    align-items: center;
+    /*min-height: 30px;*/
+}
+
+@media (max-width: 768px){
+    .projectItem {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*width: fit-content;*/
+}
+
+.user-list {
+    flex: 1;
+    overflow-y: auto;
+}

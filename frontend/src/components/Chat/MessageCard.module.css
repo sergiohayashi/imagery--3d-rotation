@@ -1,0 +1,32 @@
+.chat-entry-multi-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*margin: 0 auto;*/
+}
+
+.chat-entry-multi-container.single-column {
+    flex-direction: column;
+}
+
+.chat-entry-multi-column {
+    flex: 1 1 0;          /* equal width columns  */
+    box-sizing: border-box;
+    /*padding: 1rem;*/
+    min-width: 300px;
+    max-width: 800px;
+}
+
+
+/* draw a vertical line on every column _except_ the last one */
+.chat-entry-multi-container > *:not(:last-child) {
+    border-right: 1px solid var(--border-color);
+}
+.chat-entry-multi-container.single-column > *:not(:last-child) {
+    border-right: none;
+}
+
+.chat-entry-one-container {
+    max-width: 800px;
+    /*margin: 0 auto;*/
+}

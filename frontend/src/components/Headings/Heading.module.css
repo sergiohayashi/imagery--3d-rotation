@@ -1,0 +1,25 @@
+
+.section-title {
+    /*font-family: var(--fonts-arial), serif;*/
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.sub-title {
+    /*font-family: var(--fonts-arial), serif;*/
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 10px 0;
+    /*font-size: 1rem;*/
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+    /*font-family: var(--fonts-arial), serif;*/
+}
+
+

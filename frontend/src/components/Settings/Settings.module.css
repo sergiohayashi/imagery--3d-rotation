@@ -1,0 +1,50 @@
+.container {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: fit-content;
+}
+
+.password-update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    grid-column-gap: 4px; /* Adjust the value to your preference */
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    width: fit-content;
+}
+
+.password-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-password-btn {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.toggle-password-btn:hover {
+    text-decoration: underline;
+}
+
+.icons {
+    color: var(--icon-color)
+}

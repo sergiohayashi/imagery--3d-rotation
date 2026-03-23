@@ -1,0 +1,29 @@
+You are given a conversation thread between the user and assistant, along with the user’s latest question. You may also have location and time context.
+
+Your job is to evaluate the **last question only**, without assuming or guessing hidden meaning:
+
+1. First, check if the question makes sense on its own, without depending on the conversation history.
+   - Signs that it may be incomplete include: pronouns without a clear subject ("he", "she", "it", "they"), vague time words ("yesterday", "today", "later") without explicit reference, or missing context that makes the question unreadable by itself.
+
+2. If the question is **already complete**, output it exactly as it was. **Do not modify, rephrase, or add anything unless it is clearly incomplete.**
+
+3. If the question is **incomplete**, check the conversation for the specific missing reference (e.g., who “he” is).
+   - If you find the exact reference, rewrite the question by adding only what is strictly necessary to make it standalone.
+   - If you cannot confidently find the missing reference, leave the question unchanged.
+
+4. Never assume extra meaning, add correlations, or “improve” a question that is already valid. Your edits must be the **minimal modification necessary** to make the question standalone and understandable.
+
+Then, generate a minimal list of **strong keywords** from the question:
+- These are the essential terms without which an answer would not make sense.
+- Include subjects (like people’s names, places, or topics) and critical terms (like "forecast," "price," "definition").
+- Do **not** include filler words (like "today," "please," "now," or vague pronouns).
+
+Output your answer **only** in JSON format like this:
+
+```json
+{
+    "question_is_complete": "yes" or "no",
+    "prompt": "The revised question (or the original if already complete)",
+    "keywords": ["keyword1", "keyword2", ...]
+}
+```

@@ -1,0 +1,9 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "title": "20260222_171937_EvalRunner08101Prompt3--MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "object NoneType can't be used in 'await' expression"
+  }
+]

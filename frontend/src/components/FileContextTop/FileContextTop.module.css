@@ -1,0 +1,244 @@
+/*.content-modal {*/
+/*    color: #8a8a8a; !* Light text *!*/
+/*    background-color: #0c0c0c; !* Dark background *!*/
+/*}*/
+/*.content-dialog {*/
+/*    min-width: 90%;*/
+/*    min-height: 70%;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #000;*/
+/*    box-sizing: border-box;*/
+/*    background-color: #3f3f3f; !* Dark background *!*/
+/*    color: #dcdccc; !* Light text *!*/
+/*    font-family: 'Courier New', monospace; !* Monospace font *!*/
+/*    font-size: 0.8em; !* Smaller font size *!*/
+/*}*/
+
+/*.container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: start;*/
+/*    height: 100%;*/
+/*    !*gap: 10px;*!*/
+/*    margin: 10px;*/
+/*}*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: hidden;
+    margin: 10px;
+    /*width: 100%;*/
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.content-title-input {
+    /*width: 90%;*/
+}
+
+.content-dialog-textarea {
+    /*min-width: 80vh;*/
+    /*min-height: 50vh;*/
+    flex-grow: 1;
+    /*width: 90%;*/
+    padding: 4px 10px;
+}
+
+.content-content {
+    width: 70%;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    /*cursor: pointer;*/
+    align-items: center;
+}
+
+/*.content-content:hover {*/
+/*    background-color: var(--bg-lighter-color);*/
+/*}*/
+
+.contextList {
+    /*gap: 5px;*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow-y: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    height: 100%;
+    align-items: stretch;
+}
+
+.is_shared_panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+/*---*/
+
+.tab-nav-file-context-parent {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.tab-nav-file-context {
+    /*flex: 0 0 auto; !* This will not grow or shrink and will be automatically sized based on its content *!*/
+    cursor: pointer;
+    padding: 4px 4px;
+    font-weight: bold;
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    max-width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.tab-nav-file-context:hover {
+    background-color: var(--bg-button-hover-color);
+    border-radius: 4px;
+    /*color: var(--primary-color);*/
+}
+
+
+.title-with-icon {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.files-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    /*font-family: var(--fonts-mono);*/
+    /*font-size: var(--font-size-code)*/
+}
+
+.files-row {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    align-items: center;
+}
+
+
+
+.combo-and-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: solid 1px var(--border-color);
+    padding: 10px 0;
+}
+
+.modal-list-container-scroll {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: auto;
+    height: 100%;
+    margin: 40px 0 20px 0;
+}
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.file-context-control {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.file-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: inherit;
+    text-decoration: none;
+}
+
+.file-link:hover {
+    color: var(--primary-color);
+    /*background: var(--bg-button-hover-color);*/
+}
+
+.files-name {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+
+.context-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.file-context-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.file-count {
+    color: var(--color-blue-2);
+}
+
+.-selected div {
+    font-weight: bold;
+}
+
+.file-error {
+    font-size: var(--font-size-small);
+    color: var(--color-alert-red);
+}
+
+.files-name-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.obs {
+    font-size: var(--font-size-small);
+    border-left: solid 1px var(--border-color);
+    padding-left: 4px;
+}
+.obs ul {
+    list-style: none;     /* removes the dot */
+    margin: 0;            /* optional: remove default margin */
+    padding-left: 0;      /* optional: remove the left indent */
+}

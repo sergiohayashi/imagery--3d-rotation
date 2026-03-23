@@ -1,0 +1,20 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260316_224536_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "title": "20260316_224536_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "title": "20260316_224536_EvalRunner08201Prompt3Freeze1_gpt-5.2-2025-12-11--MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "answer": "A",
+    "correct": false
+  }
+]

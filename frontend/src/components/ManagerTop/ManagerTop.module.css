@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.manager-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .manager-container {
+        display: flex;
+        flex-direction: column;
+        height: unset;
+        overflow-y: auto;
+    }
+}
+
+.manager-container-left {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 10px;
+    border-right: solid 1px var(--border-color);
+}
+
+@media (max-width: 768px) {
+    .manager-container-left {
+        margin: 10px;
+    }
+}
+
+
+.manager-container-right {
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+
+}

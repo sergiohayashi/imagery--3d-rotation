@@ -1,0 +1,164 @@
+/*!* src/login/Login.css *!*/
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /*padding: 0px 10px 0px 50px;*/
+    /*background-color: #f2f2f2;*/
+    overflow-y: auto;
+    gap: 50px;
+}
+
+.login-form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 100px;
+    /*align-items: stretch;*/
+    /*text-align: center;*/
+    /*background-color: white;*/
+    /*padding: 20px;*/
+    /*border-radius: 8px;*/
+    /*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);*/
+}
+
+.login-group, .login-group button, .login-group  div, .login-group input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; /* Adjust margin as needed */
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc; /* Adjust the line color */
+    margin: 0 10px; /* Adjust spacing around the text */
+}
+
+.separator span {
+    padding: 0 10px; /* Adjust padding around the text */
+    color: #666; /* Adjust text color */
+    font-size: 14px; /* Adjust font size */
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-group > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    border: solid 1px var(--border-color);
+}
+
+.form-control {
+    width: 100%;
+    /*padding: 10px;*/
+    /*border-radius: 4px;*/
+    border: 1px solid #ddd;
+}
+
+.submit-btn {
+    width: 50%;
+    /*padding: 10px;*/
+    /*border-radius: 4px;*/
+    /*border: none;*/
+    /*background-color: #007BFF;*/
+    /*color: white;*/
+    /*cursor: pointer;*/
+}
+
+/*.submit-btn:hover {*/
+/*    !*background-color: #0056b3;*!*/
+/*}*/
+
+.message {
+    margin-top: 15px;
+}
+
+
+
+/*.login-container {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*    !*background-color: #f0f0f0;*!*/
+/*}*/
+
+/*.login-container div {*/
+/*    width: 300px;*/
+/*    padding: 20px;*/
+/*    border-radius: 5px;*/
+/*    !*box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);*!*/
+/*    !*background-color: white;*!*/
+/*}*/
+
+/*.login-container label {*/
+/*    display: block;*/
+/*    margin-bottom: 5px;*/
+/*    !*font-weight: bold;*!*/
+/*}*/
+
+/*.login-container input {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 20px;*/
+/*    border: 1px solid #ddd;*/
+/*    !*border-radius: 5px;*!*/
+/*}*/
+
+/*.login-container button {*/
+/*    width: 100%;*/
+/*}*/
+
+/*.login-container span {*/
+/*    !*display: block;*!*/
+/*    !*margin-top: 10px;*!*/
+/*    !*color: #007BFF;*!*/
+/*}*/
+
+/*.login-container p {*/
+/*    !*color: red;*!*/
+/*    text-align: center;*/
+/*}*/
+
+.app-logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

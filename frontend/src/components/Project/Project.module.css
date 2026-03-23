@@ -1,0 +1,143 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /*margin: 10px;*/
+}
+
+
+.projectList {
+    /*height: 100%;*/
+    /*gap: 10px;*/
+    width: 100%;
+    overflow-y: auto;
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    gap: 5px; /* This will add a 10px space between each item */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /*row-gap: 10px;*/
+    margin-top: 20px;
+}
+
+/*.projectItem:hover {*/
+/*    background-color: var(--bg-lighter-color);*/
+/*}*/
+
+.projectItem {
+    /*cursor: pointer;*/
+    /*margin-right: 10px;*/
+
+    width: 70%;
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    align-items: center;
+    min-height: 30px;
+    /*pointer-events: ;*/
+    /*display: grid;*/
+    /*grid-template-columns: 4fr 1fr 1fr;*/
+    /*gap: 10px; !* This will add a 10px space between each item *!*/
+    /*display: flex;*/
+    /*justify-content: space-between; !* This will distribute the space evenly between the items *!*/
+    /*margin-bottom: 10px; !* This will add a 10px space below each item *!*/
+}
+
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    min-height: 200px;
+    /*max-height: 500px;*/
+    /*width: 400px;*/
+}
+
+@media (min-width: 768px) {
+    .modal-container {
+        width: 481px;
+        height: 460px;
+    }
+}
+
+.delete-color {
+    color: var(--delete-color);
+}
+.delete-button {
+    background-color: var(--delete-color);
+}
+
+.users-container {
+
+}
+
+
+.users-row {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    display: grid;
+    grid-template-columns: 7fr 2fr 1fr;
+    align-items: center;
+}
+
+.project-users-container {
+    display: flex;
+    flex-direction: column;
+    /*gap: 10px;*/
+}
+.modify-name-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.new-project-name-panel {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.new-project-name-name {
+    width: 300px;
+}
+
+.users-container-scroll {
+    display: flex;
+    flex-direction: column;
+    /*gap: 10px;*/
+    margin: 2px 0;
+}
+
+.new-user-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.new-user-email {
+    min-width: 256px;
+    width: 100%;
+    min-height: 100px;
+}
+
+.new-user-button-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.modify-name-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+

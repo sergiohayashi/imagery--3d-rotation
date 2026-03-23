@@ -1,0 +1,22 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260306_190130_EvalRunner08101Prompt3Freeze1--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "'NoneType' object has no attribute 'lower'"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "title": "20260306_190130_EvalRunner08101Prompt3Freeze1--MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "'NoneType' object has no attribute 'lower'"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "title": "20260306_190130_EvalRunner08101Prompt3Freeze1--MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "answer": "A",
+    "correct": false
+  }
+]

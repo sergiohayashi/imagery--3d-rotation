@@ -1,0 +1,31 @@
+# imagery -- 20251111 - 104 - simples, mas parece bom.
+# Aqui é para as primeiras iterações, não pede para gera a resposta. Para gerar a resposta, daria para compor. Ou, melhor, remover a parte que pede para não responder, e mudar o format, para inclur 'final answer'
+
+There is a visual problem.
+
+As the problem statement, you are given a 2D perspective image, some answer alternatives and a question asking to select the correct alternative.
+
+This problem will be resolved in a iterative way.
+
+Your task is to execute one iteration of this process.
+
+The problem image is backed by an underlying 3D model. You don´t have access to this model, but there is a helper module called imagery module that have access to it, and know exactly how to manipulate.
+
+In one iteration, you will generate an instruction to this imagery module, to give you another perspective, towards the direction of result the problem.
+
+Generate the instruction in this format:
+
+```json
+{
+  "rationale": "Explain the reasoning behind why this visual instruction is useful toward understanding or evidencing the solution.",
+  "instructions_to_imagery": "Describe the exact visual modification or manipulation to apply to the image."
+}
+```
+
+The imagery module don't know the problem itself, nor the alternative blocks.
+The imagery module knows the problem 3D model, and how to make small manipulation.
+The imagery module, once received the instruction, will generate a new perspective image, that will be a helper toward resolve the problem. So, make this assumption when generating the instruction.
+Don't ask to generate an image, it is implicit in the process. In the instruction only include image/model manipulation specific instruction.
+Be as direct as possible in the instruction. Don't need to explain why. Put the 'why' in the 'rationale'.
+
+

@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.metrics-container {
+    /*width: 300px;*/
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
+}
+
+.metrics-container-daily {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+/*.metrics-container:not(:last-child) {*/
+/*    border-left: solid 1px var(--border-color);*/
+/*}*/
+
+
+@media (min-width: 768px) {
+    .metrics-container > div:not(:first-child) {
+        /*padding: 10px;*/
+        /*border-radius: 4px;*/
+        border-left: solid 1px var(--border-color);
+        /*background-color: var(--bg-secondary-color);*/
+    }
+}

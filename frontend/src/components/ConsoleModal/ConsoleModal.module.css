@@ -1,0 +1,108 @@
+/*!*modal start*!*/
+.modal {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    height: 100%;
+    /*background: rgba(0, 0, 0, 0.6);*/
+    /*background: rgba(255, 0, 0, 0.6);*/
+    background-color: var(--fullscreen-background-lighter2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    z-index: 1001;
+}
+
+.modal-container {
+    /*z-index: 1001;*/
+    position:fixed;
+    background-color: var(--console-background);
+    /*background: var(--bg-color);*/
+    width: 100%;
+    height: 50%;
+    /*max-width: 500px;*/
+    /*max-height: 500px;*/
+    /*height: 70%;*/
+    /*padding: 10px;*/
+    /*top:50%;*/
+    bottom: 0;
+    left:0;
+    /*transform: translate(-50%,-50%);*/
+
+    display: flex;
+    flex-direction: column;
+    /*max-height: 100%;*/
+
+    /*color: #8a8a8a; !* Light text *!*/
+    /*background-color: #0c0c0c; !* Dark background *!*/
+    border-top: solid 1px var(--border-color);
+}
+
+.modal-container-maximize {
+    /*z-index: 1001;*/
+    /*position:fixed;*/
+    background: var(--bg-color);
+    /*background: blue;*/
+    width: 100%;
+    height: 100%;
+    /*padding-block-start: 5%;*/
+    /*max-width: 500px;*/
+    /*max-height: 500px;*/
+    /*padding: 50px;*/
+    /*top:0px;*/
+    /*left:0px;*/
+    /*transform: translate(-50%,-50%);*/
+    /*padding: 10px;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    /*max-height: 100%;*/
+
+    /*color: #8a8a8a; !* Light text *!*/
+    /*background-color: #0c0c0c; !* Dark background *!*/
+    /*border: solid 1px var(--darker-secondary-color);*/
+}
+
+
+
+/*.maximize {*/
+/*    padding: 50px !important;*/
+/*    width: 100% !important;*/
+/*    height: 100%  !important;;*/
+/*    max-width: unset !important;*/
+/*    max-height: unset !important;*/
+/*    z-index: 2000;*/
+/*    !*z-index: 30;*!*/
+/*}*/
+
+.modal-nav {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.modal-container-inner {
+    overflow-y: auto;
+    height: 100%;
+}
+
+.modal-actions {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+/*!*modal end*!*/

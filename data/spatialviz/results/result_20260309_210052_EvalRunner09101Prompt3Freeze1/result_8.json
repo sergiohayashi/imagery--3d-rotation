@@ -1,0 +1,65 @@
+[
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-0-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-1-2-3-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-2-3-3-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-3-3-2-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-4-2-3-1-4",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-5-2-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-6-3-3-1-5",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-7-3-3-1-8",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-7-3-3-1-8",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  },
+  {
+    "problem_id": "MentalRotation-3DRotation-Level0-8-3-3-1-7",
+    "title": "20260309_210052_EvalRunner09101Prompt3Freeze1--MentalRotation-3DRotation-Level0-8-3-3-1-7",
+    "answer": "ERROR",
+    "correct": false,
+    "error": "name 'ToolsBackedImageryReasoner_Eval_09101_Prompt3_Freeze1' is not defined"
+  }
+]

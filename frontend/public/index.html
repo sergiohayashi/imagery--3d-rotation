@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+        <!--    <link rel="icon" href="cropped-Favicon-32x32.png" />-->
+        <!--    <meta name="viewport" content="width=device-width, initial-scale=1" />-->
+        <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
+        <meta name="viewport"
+              content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1.0,interactive-widget=resizes-content">
+        <!--    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+
+        <!--    <meta name="apple-mobile-web-app-capable" content="yes">-->
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="apple-mobile-web-app-title" content="Imagery">
+        <!--    <meta name="theme-color" content="#000000" />-->
+        <meta name="description" content="Imagery"/>
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png"/>
+        <!--
+          manifest.json provides metadata used when your web app is installed on a
+          user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+        -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+        <!--
+          Notice the use of %PUBLIC_URL% in the tags above.
+          It will be replaced with the URL of the `public` folder during the build.
+          Only files inside the `public` folder can be referenced from the HTML.
+
+          Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+          work correctly both with client-side routing and a non-root public URL.
+          Learn how to configure a non-root public URL by running `npm run build`.
+        -->
+        <style>
+            html, body {
+                margin: 0;
+            }
+            .spin-container {
+                height: 100vh;
+                display: grid;
+                place-items: center;
+                justify-content: center;
+                align-items: center;
+                background: linear-gradient(108deg, #2f2f2f, #000000);
+            }
+            @keyframes fade {
+                0% { opacity: 1.0; }
+                50% { opacity: 0.7; }
+                100% { opacity: 1.0; }
+            }
+
+            .spin-logo {
+                height: 128px;
+                width: 128px;
+                border-radius: 50%;
+                animation: fade 4s ease-in-out infinite;
+            }
+        </style>
+        <title>Imagery</title>
+    </head>
+
+    <body>
+        <div id="root">
+            <div class="spin-container">
+                <img
+                    src="/android-chrome-512x512.png"
+                    alt="App Logo"
+                    class='spin-logo'
+                />
+            </div>
+        </div>
+    </body>
+</html>
