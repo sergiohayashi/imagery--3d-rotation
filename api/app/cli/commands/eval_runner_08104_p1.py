@@ -132,7 +132,7 @@ class EvalRunner08104_p1(CommandBase):
                 if answer == problem["Answer"]:
                     score += 1
             except Exception as e:
-                logging.exception(f"Error in EvalRunner90.run_eval: {e}")
+                logging.exception(f"Error: {e}")
                 result.append(
                     {
                         "problem_id": problem_id,

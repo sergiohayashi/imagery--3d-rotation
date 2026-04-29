@@ -532,6 +532,23 @@ class OpenAILLM_ResponseApiStream(LLMBase):
     effort_options = ["high", "medium", "low"]
     models: List[ModelDeclaration] = [
         ModelDeclaration(
+            name="gpt-5.5-2026-04-23",
+            company=LLMNames.OPENAI,
+            input_price=5.0,
+            output_price=30,
+            eligible=True,
+            max_token="1M",
+            has_web_search=True,
+            has_code_interpreter=True,
+            code_interpreter_price_per_container=0.03,
+            has_image_generation=True,
+            link="https://platform.openai.com/docs/models/gpt-5.5",
+            input_modality="TI",
+            output_modality="T",
+            # reasoning_effort = 'high',
+            effort_options=effort_options_with_none,
+        ),
+        ModelDeclaration(
             name="gpt-5.4-2026-03-05",
             company=LLMNames.OPENAI,
             input_price=2.50,

@@ -4,6 +4,9 @@ import time
 from app.cli.commands import (
     chat_runner_2_1,
     chat_runner_2_2,
+    chat_runner_2_3_chatgpt5_5,
+    chat_runner_2_4_chatgpt5_2,
+    chat_runner_2_5_chatgpt5_4,
     eval_runner_05095,
     eval_runner_05097,
     eval_runner_08101_prompt1,
@@ -78,6 +81,9 @@ def build_parser() -> argparse.ArgumentParser:
     chat_runner_1.register(subparsers)
     chat_runner_2_1.register(subparsers)
     chat_runner_2_2.register(subparsers)
+    chat_runner_2_3_chatgpt5_5.register(subparsers)
+    chat_runner_2_4_chatgpt5_2.register(subparsers)
+    chat_runner_2_5_chatgpt5_4.register(subparsers)
     eval_runner_4.register(subparsers)
     eval_runner_5.register(subparsers)
     eval_runner_6.register(subparsers)
