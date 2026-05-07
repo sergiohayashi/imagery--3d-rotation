@@ -11,7 +11,9 @@ from app.config.static_mounts import (
     DATASET_EVAL_IMAGES_DIR,
     MOUNT_DATASET_EVAL_IMAGES,
     MOUNT_PROBLEMS_IMAGES,
+    MOUNT_SLICES,
     PROBLEMS_IMAGES_DIR,
+    SLICES_IMAGES_DIR,
 )
 
 
@@ -36,6 +38,7 @@ def _mount_pairs() -> list[tuple[str, Path]]:
     pairs = [
         (MOUNT_DATASET_EVAL_IMAGES, DATASET_EVAL_IMAGES_DIR.resolve()),
         (MOUNT_PROBLEMS_IMAGES, PROBLEMS_IMAGES_DIR.resolve()),
+        (MOUNT_SLICES, SLICES_IMAGES_DIR.resolve()),
         (LOCAL_FILES_MOUNT_PREFIX, local_root),
     ]
     return sorted(pairs, key=lambda x: len(x[1].parts), reverse=True)

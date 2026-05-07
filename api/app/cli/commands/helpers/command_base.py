@@ -7,6 +7,7 @@ from app.config.config import config
 class CommandBase(ABC):
     project_id = "68d0617c5f83766eeb6abb15"
     spatialviz_root_path = the_global_config.data_root_dir / "spatialviz"
+    data_root_path = the_global_config.data_root_dir
 
     def __init__(self):
         config.user_info_var.set(

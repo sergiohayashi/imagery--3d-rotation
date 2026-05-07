@@ -17,9 +17,11 @@ from app.config.config import config
 from app.config.global_config import LOCAL_FILES_MOUNT_PREFIX, the_global_config
 from app.config.static_mounts import (
     DATASET_EVAL_IMAGES_DIR,
+    MOUNT_SLICES,
     PROBLEMS_IMAGES_DIR,
     MOUNT_DATASET_EVAL_IMAGES,
     MOUNT_PROBLEMS_IMAGES,
+    SLICES_IMAGES_DIR,
 )
 from ..config import custom_auth
 
@@ -143,22 +145,44 @@ def _mount_static_if_dir_exists(mount_path: str, directory: Path, *, name: str) 
     )
     logger.info(f"MOUNTED static files: {name} -> {resolved}")
 
+# _REPO_ROOT = Path(__file__).resolve().parents[3]
+# _DATA_SPATIALVIZ_PROBLEMS = _REPO_ROOT / "data" / "spatialviz" / "problems"
+# DATASET_EVAL_IMAGES_DIR = (
+#     _DATA_SPATIALVIZ_PROBLEMS
+#     / "dataset-eval2-1001--3d-rotation-level-0"
+#     / "images"
+# )
+# PROBLEMS_IMAGES_DIR = _DATA_SPATIALVIZ_PROBLEMS / "images"
+# SLICES_IMAGES_DIR = _REPO_ROOT / "data"  / "spatialviz-3d-slices" / "data"
+# MOUNT_DATASET_EVAL_IMAGES = "/dataset-eval2-1001--3d-rotation-level-0/images"
+# MOUNT_PROBLEMS_IMAGES = "/problems/images"
+# MOUNT_SLICES = "/spatialviz-3d-slices/data"
+# SLICES_IMAGES_DIR = _REPO_ROOT / "data"  / "spatialviz-3d-slices" / "data"
+
+# for new mount points, add to _mount_pairs
+# in app/utils/local_file_url.py
 
 _mount_static_if_dir_exists(
-    MOUNT_DATASET_EVAL_IMAGES,
-    DATASET_EVAL_IMAGES_DIR,
+    MOUNT_DATASET_EVAL_IMAGES,   #mount point
+    DATASET_EVAL_IMAGES_DIR,   #source directory
     name="images",
 )
 _mount_static_if_dir_exists(
-    MOUNT_PROBLEMS_IMAGES,
-    PROBLEMS_IMAGES_DIR,
+    MOUNT_PROBLEMS_IMAGES,  # mouunt point
+    PROBLEMS_IMAGES_DIR,  # source directory
     name="spatialviz_images",
 )
 _mount_static_if_dir_exists(
-    LOCAL_FILES_MOUNT_PREFIX,
-    Path(the_global_config.local_files_root_dir),
+    LOCAL_FILES_MOUNT_PREFIX,  # mount point
+    Path(the_global_config.local_files_root_dir),  # source directory
     name="local_bucket_files",
 )
+_mount_static_if_dir_exists(
+    MOUNT_SLICES,
+    SLICES_IMAGES_DIR, # source directory
+    name="spatialviz_3d_slices"
+)
+
 
 
 @app.get("/")

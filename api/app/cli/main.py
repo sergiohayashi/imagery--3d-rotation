@@ -44,6 +44,7 @@ from app.cli.commands import (
     eval_runner_93,
     eval_runner_94,
     eval_runner_95,
+    eval_runner_match_by_rotation_00101,
     eval_runner_with_model_9,
     hello_example,
     chat_runner_1,
@@ -134,6 +135,7 @@ def build_parser() -> argparse.ArgumentParser:
     eval_runner_08201_prompt3_freeze1.register(subparsers)
     eval_runner_08101_prompt3_freeze2.register(subparsers)
     eval_runner_08101_prompt3_freeze1_abla1.register(subparsers)
+    eval_runner_match_by_rotation_00101.register(subparsers)
     return parser
 
 

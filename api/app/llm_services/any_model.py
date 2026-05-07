@@ -168,8 +168,12 @@ class AnyModel:
             # elif m.get("content"):
             #     messages.append(dict(role=m.get("role"), content=m.get("content")))
 
-        # print("\n\nAnyModel.chat (before send). Messages>>> ")
-        # print(json.dumps(messages, indent=2, cls=CustomJSONEncoder))
+        print(f"\n\n{'='*40}\nAnyModel.chat. SENT TO LLM:. Messages>>> ")
+        print(json.dumps(messages, indent=2, cls=CustomJSONEncoder))
+        # for m in messages:
+        #     print("-"*40)
+        #     print(json.dumps(m, indent=2, cls=CustomJSONEncoder))
+        # print("-"*40)
         # print("<<< AnyModel.chat (before send). Messages\n\n")
 
         answer, image_url, files, meta = await self.get_chatgpt_response(

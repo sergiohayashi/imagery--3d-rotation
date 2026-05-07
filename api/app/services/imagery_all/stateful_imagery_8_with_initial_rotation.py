@@ -458,6 +458,7 @@ class StatefulImageryWithInitialRotationModule_8:
         action_sequence: str,
         output_path: str = None,
         no_save: bool = False,
+        image_title: str = None,
     ):
         """
         Execute a sequence of human-friendly commands and save a composed summary image.
@@ -562,8 +563,9 @@ class StatefulImageryWithInitialRotationModule_8:
 
         plt.subplots_adjust(wspace=0.1, hspace=0.3)
         plt.tight_layout()
+        _title = image_title if image_title else f"Image {label}: {target}"
         st = plt.suptitle(
-            f"Target: {target}",
+            _title,
             fontsize=18,
             color="black",
             y=1.00 + (0.01 * rows),
