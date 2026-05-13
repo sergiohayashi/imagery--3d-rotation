@@ -29,3 +29,6 @@ huggingface-hub~=0.34
 numpy~=2.3
 pymupdf~=1.26
 pyvista~=0.46
+trame~=3.10
+trame-vtk~=3.10
+trame-vuetify~=3.10

@@ -8,6 +8,9 @@ from bson import ObjectId
 from app.services.imagery_all.imagery_tools_backed_reasoner__match_by_rotation_0101 import (
     ToolsBaseImageryMatchByRotation00101,
 )
+from app.services.imagery_all.imagery_tools_backed_reasoner__match_by_rotation_0102 import (
+    ToolsBaseImageryMatchByRotation00102,
+)
 
 from app.utils.file_utils import guess_content_type_from_filename, CustomJSONEncoder
 from ..config.config import config
@@ -128,6 +131,7 @@ class ChatMessageServiceWithImageryForMatchRotate:
 
         reasoner_by_model = {
             "tools-based-imagery--match-by-rotation-00101": ToolsBaseImageryMatchByRotation00101,  # pyright: ignore[reportUndefinedVariable]
+            "tools-based-imagery--match-by-rotation-00102": ToolsBaseImageryMatchByRotation00102,  # pyright: ignore[reportUndefinedVariable]
             # "tools-based-imagery--eval-08101_prompt5": ToolsBackedImageryReasoner_Eval_08101_Prompt5,  # pyright: ignore[reportUndefinedVariable]
         }
         answer, chat_history, iter_steps = await reasoner_by_model[

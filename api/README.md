@@ -65,3 +65,6 @@ The frontend expects the API at **`http://localhost:8000`** ([`frontend/src/conf
 
 - **Artifacts on disk** — JSON and related outputs under the repo’s [`data/`](../data/) tree (e.g. `data/spatialviz/results/`); generated images may also live under paths such as `data/__local_bucket__` depending on configuration.
 - **Full UI** — API + frontend as above.
+
+
+

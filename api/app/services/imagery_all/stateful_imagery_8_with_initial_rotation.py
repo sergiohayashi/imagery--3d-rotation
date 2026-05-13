@@ -55,11 +55,12 @@ def _rotation_matrix(axis, angle_rad):
 
 
 class StatefulImageryWithInitialRotationModule_8:
-    def __init__(self, bounds_map: dict, off_screen=True, show_grid=True):
+    def __init__(self, bounds_map: dict, off_screen=True, show_grid=True, high_contrast=False):
         self.bounds_map = bounds_map
         self.off_screen = off_screen
         self.seq_count_map = {target: 0 for target in self.bounds_map.keys()}
         self.show_grid = show_grid
+        self.high_contrast = high_contrast
         self.plotter_map = self._build()
         self._initial_rotation()
         self.count = 0
@@ -84,7 +85,8 @@ class StatefulImageryWithInitialRotationModule_8:
             for b in bounds_data["bounds"]:
                 _plotter.add_mesh(
                     pv.Cube(bounds=b),
-                    color="#70757A",
+                    color="#B8C0CC" if self.high_contrast else "#70757A",
+                    line_width=3 if self.high_contrast else 1,
                     show_edges=True,
                     lighting=True,  # enable shading
                     ambient=0.55,  # raise ambient -> less harsh shadows
@@ -596,3 +598,18 @@ class StatefulImageryWithInitialRotationModule_8:
 
         print(f"Composed summary image written to {composed_path}")
         return composed_path
+
+
+
+if __name__ == "__main__":
+    bounds_map = {
+        "A": {
+            "bounds": [
+                [0, 0, 0],
+                [1, 1, 1]
+            ],
+            "rotation": "rotate:cw:30"
+        }
+    }
+    imagery = StatefulImageryWithInitialRotationModule_8(bounds_map)
+    imagery.show("A")
